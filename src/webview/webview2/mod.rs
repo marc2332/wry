@@ -5,7 +5,10 @@
 mod file_drop;
 
 use crate::{
-  application::platform::windows::EventLoopExtWindows,
+  application::platform::{
+    windows::EventLoopExtWindows,
+    unix::EventLoopExtUnix
+  },
   webview::{WebContext, WebViewAttributes},
   Result,
 };
