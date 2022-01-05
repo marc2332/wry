@@ -6,8 +6,7 @@ mod file_drop;
 
 use crate::{
   application::platform::{
-    windows::EventLoopExtWindows,
-    unix::EventLoopExtUnix
+    windows::EventLoopExtWindows
   },
   webview::{WebContext, WebViewAttributes},
   Result,
